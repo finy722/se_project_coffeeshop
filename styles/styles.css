@@ -6,8 +6,6 @@
   line-height: 20px;
   margin: 0 auto;
   background-color: #fff;
-  background-image: url(..//images/background_header.svg);
-  background-position: center;
 }
 
 .header {
@@ -17,6 +15,11 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  background-image: url(..//images/background_header.svg);
+  background-position: center;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 .nav {
   display: flex;
@@ -73,7 +76,8 @@
   position: absolute;
   max-width: 646px;
   max-height: 568px;
-  margin-top: 96px;
+  right: 5px;
+  top: 124px;
 }
 
 .header__span-accent {
@@ -134,7 +138,7 @@
   color: #fff;
 }
 
-.recipe__videos {
+.recipes__videos {
   gap: 40px;
   display: flex;
   justify-content: center;
@@ -153,7 +157,7 @@
   color: #fff;
 }
 
-.recipe__iframe {
+.recipes__iframe {
   display: flex;
   justify-content: space-between;
   border: none;
