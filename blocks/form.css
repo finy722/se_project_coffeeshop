@@ -1,0 +1,78 @@
+.form {
+  background: url("../images/background_reservation.svg") #d9e7ff;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 385px;
+  background-size: cover;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 60px;
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__input::placeholder {
+  padding-left: 20px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  border-radius: 4px;
+  height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #2f80ed;
+}
+
+.form__label_type_checkbox {
+  border-radius: 2px;
+  margin-right: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.form__button:hover {
+  opacity: 100%;
+  opacity: 70%;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
