@@ -73,4 +73,5 @@
   opacity: 70%;
   transition-property: transform;
   transition-timing-function: ease-in-out;
+  transition: 0.3s linear 0s;
 }
