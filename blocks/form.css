@@ -1,5 +1,4 @@
 .form {
-  background: url("../images/background_reservation.svg") #d9e7ff;
   background-position: center;
   background-repeat: no-repeat;
   max-width: 385px;
@@ -56,13 +55,15 @@
   border-style: none;
 }
 
-.form__label_type_checkbox {
+.form__checkbox {
   border-radius: 2px;
-  margin-right: 12px;
-  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.form__label_type_checkbox {
+  margin: 0;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 20px;
   display: flex;
   justify-content: center;
